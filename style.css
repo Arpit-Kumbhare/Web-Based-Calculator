@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+header #heading{
+    color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5rem;
+}
+
+.display-bar{
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+    width: 60%;
+    height: 6rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.input-bar{
+    height: 100%;
+    width: 100%;
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgb(249, 239, 227);
+    padding: 0 1rem;
+    font-family: "Underdog", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+
+.button-grid{
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(249, 239, 227);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.3rem;
+    
+}
+
+.buttom{
+    height: 4rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Underdog", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.8rem;
+}
